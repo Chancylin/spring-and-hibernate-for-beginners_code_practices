@@ -3,4 +3,5 @@
 ## Packages
 * JDK 11
 * Spring 5.38
+* javax.annotation 1.3.2
 * apache-tomcat 9.0.64
