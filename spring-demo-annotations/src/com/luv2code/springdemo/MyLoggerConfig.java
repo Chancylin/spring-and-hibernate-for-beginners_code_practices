@@ -22,6 +22,10 @@ public class MyLoggerConfig {
 	@Value("${printed.logger.level}")
 	private String printedLoggerLevel;
 	
+	public MyLoggerConfig() {
+		System.out.println(">>MyLoggerConfig: inside default constructor");
+	}
+	
 	@PostConstruct
 	public void initLogger() {
  
