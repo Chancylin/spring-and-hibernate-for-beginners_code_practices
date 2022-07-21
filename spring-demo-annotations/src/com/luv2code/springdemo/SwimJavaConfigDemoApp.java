@@ -19,7 +19,7 @@ public class SwimJavaConfigDemoApp {
 		System.out.println(theCoach.getDailyFortune());
 		
 		// call our new SwimCoach methods ... has the props values injected
-		System.out.println("email:" + theCoach.getEmail());
+		System.out.println("email: " + theCoach.getEmail());
 		System.out.println("team: " + theCoach.getTeam());
 		
 		// close the context
