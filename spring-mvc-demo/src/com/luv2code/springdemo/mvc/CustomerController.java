@@ -42,6 +42,11 @@ public class CustomerController {
 			BindingResult theBindingResult) {
 		
 		System.out.println("Last name: |" + theCustomer.getLastName() + "|");
+		
+		// for the purpose to understand how custom error message works
+		// by introducing messages.properties file
+		System.out.println("Binding result: " + theBindingResult);
+		
 		if (theBindingResult.hasErrors()) {
 			return "customer-form";
 		} else {
