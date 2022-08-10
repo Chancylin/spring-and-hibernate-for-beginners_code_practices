@@ -2,5 +2,7 @@
 .project
 .gitignore
 !/.gitignore
+.classpath
+**/lib
 **/bin
 **/.settings
